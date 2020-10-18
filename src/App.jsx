@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div>
-
-    </div>
-  )
+class componentName extends Component {
+  render() {
+    return (
+      <div> textInComponent </div>
+    );
+  }
 }
 
-export default App
+export default componentName;
