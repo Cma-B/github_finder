@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import Navbar from "./components/layout /Navbar"
+import UserItem from './components/user/UserItem'
 
-class componentName extends Component {
+
+class App extends Component {
   render() {
     return (
-      <div> textInComponent </div>
+      <div className='app'>
+        <Navbar />
+        <UserItem />
+      </div>
     );
   }
 }
 
-export default componentName;
+export default App;
