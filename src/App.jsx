@@ -3,12 +3,15 @@ import Navbar from "./components/layout /Navbar"
 import Users from './components/user/Users'
 
 
+
 class App extends Component {
   render() {
     return (
       <div className='app'>
         <Navbar />
-        <Users />
+        <div className='container'>
+          <Users />
+        </div>
       </div>
     );
   }
