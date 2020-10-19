@@ -15,11 +15,11 @@ const Users = ({ users, loading }) => {
     );
   }
 }
+
 Users.propTypes = {
   users: PropTypes.array.isRequired,
   loading: PropTypes.bool.isRequired,
 }
-
 
 const userStyle = {
   display: 'grid',
